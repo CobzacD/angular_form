@@ -1,0 +1,21 @@
+/* Add application styles & imports to this file! */
+form {
+  padding: 10px;
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.label {
+  margin: 20px;
+}
+button {
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding: 10px;
+  margin: 20px;
+}
+h1 {
+  margin: 20px;
+  padding: 10px;
+}

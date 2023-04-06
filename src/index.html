@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Formular Cobzac</title>
+  </head>
+  <body>
+    <my-app>Loading...</my-app>
+
+    <form>
+      <div class="label">
+        <label>Autentificare</label>
+        <input tip="text" [(ngModel)]="loginForm.login" necesar />
+      </div>
+      <div class="label">
+        <label>Parola</label>
+        <input tip="parolă" [(ngModel)]="loginForm.password" necesar />
+      </div>
+
+      <button (click)="printForm()">Autentificare</button>
+    </form>
+  </body>
+</html>
